@@ -6,7 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: dart-lang/setup-dart@v1.3
-      - run: dart test test_main.dart
+      - run: dart test
       - run: cd ..
       - run: ls
 

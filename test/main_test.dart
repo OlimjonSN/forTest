@@ -1,4 +1,4 @@
-import 'bin/main.dart' as prety;
+import '../bin/main.dart' as prety;
 import 'package:test/test.dart';
 
 void main() {

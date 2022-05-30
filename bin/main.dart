@@ -1,7 +1,7 @@
 void main() {
-  print(func(5, 6));
+  print(func());
 }
 
-int func(a, b) {
-  return a + b;
+func() {
+  return;
 }

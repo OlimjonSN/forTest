@@ -1,8 +1,8 @@
-import '../bin/main.dart' as prety;
 import 'package:test/test.dart';
+import '../bin/main.dart' as prety;
 
 void main() {
   test("calculate", () {
-    expect(prety.func(40, 2), 42);
+    expect(prety.func(), null);
   });
 }
